@@ -9,7 +9,7 @@ class TagCreaterView:
 
     '''
 
-    def validate_and_creat(self,http_request:HttpRequest) -> HttpResponse:
+    def validate_and_create(self,http_request:HttpRequest) -> HttpResponse:
         tag_creator_controller = TagCreatorControler()
 
         body = http_request.body
